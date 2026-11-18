@@ -16,6 +16,7 @@ public class ChakraChargeEffect extends MobEffect {
     @Override
     public void applyEffectTick(LivingEntity entity, int amplifier) {
         if (entity.level().isClientSide || !(entity instanceof ServerPlayer player)) return;
+        if (player.hasEffect(AddonRegistry.CHAKRA_BLOCK.get())) { player.removeEffect(this); return; }
         Chakra.Pathway path = Chakra.pathway(player);
         if (path == null) return;
         if (path.isFull()) {

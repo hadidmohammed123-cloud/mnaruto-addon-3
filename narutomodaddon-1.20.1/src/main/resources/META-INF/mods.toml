@@ -3,7 +3,7 @@ loaderVersion="[47,)"
 license="All Rights Reserved"
 [[mods]]
 modId="narutomodaddon"
-version="1.3.0"
+version="1.4.0"
 displayName="Naruto Chakra Addon"
 description='''Chakra charge, jutsu EXP and ninja XP tools for ShinobiCraft (ported from the 1.12.2 add-on).'''
 [[dependencies.narutomodaddon]]

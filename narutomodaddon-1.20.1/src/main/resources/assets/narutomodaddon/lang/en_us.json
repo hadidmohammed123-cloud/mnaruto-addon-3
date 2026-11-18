@@ -1,5 +1,9 @@
 {
   "item.narutomodaddon.chakra_charge": "Chakra Charge",
-  "item.narutomodaddon.jutsu_exp": "Jutsu EXP",
-  "effect.narutomodaddon.chakra_charge_effect": "Chakra Charge"
+  "item.narutomodaddon.jutsu_exp": "Jutsu Experience Scroll",
+  "effect.narutomodaddon.chakra_charge_effect": "Charging Chakra",
+  "effect.narutomodaddon.chakra_block_item": "Chakra Blocked",
+  "key.categories.narutomodaddon": "Naruto Chakra Addon",
+  "key.narutomodaddon.chakra_charge": "Chakra Charge",
+  "key.narutomodaddon.menu": "Open Addon Menu"
 }

@@ -15,6 +15,7 @@ public class AddonRegistry {
     public static final DeferredRegister<CreativeModeTab> TABS = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, NarutoModAddon.MODID);
 
     public static final RegistryObject<MobEffect> CHAKRA_CHARGE_EFFECT = EFFECTS.register("chakra_charge_effect", ChakraChargeEffect::new);
+    public static final RegistryObject<MobEffect> CHAKRA_BLOCK = EFFECTS.register("chakra_block_item", ChakraBlockEffect::new);
     public static final RegistryObject<Item> CHAKRA_CHARGE = ITEMS.register("chakra_charge", ChakraChargeItem::new);
     public static final RegistryObject<Item> JUTSU_EXP = ITEMS.register("jutsu_exp", JutsuExpItem::new);
 
