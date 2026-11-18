@@ -1,0 +1,26 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="narutomodaddon"
+version="1.3.0"
+displayName="Naruto Chakra Addon"
+description='''Chakra charge, jutsu EXP and ninja XP tools for ShinobiCraft (ported from the 1.12.2 add-on).'''
+[[dependencies.narutomodaddon]]
+modId="forge"
+mandatory=true
+versionRange="[47.4.28,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.narutomodaddon]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.narutomodaddon]]
+modId="narutomod"
+mandatory=true
+versionRange="[0.3.2,)"
+ordering="AFTER"
+side="BOTH"
